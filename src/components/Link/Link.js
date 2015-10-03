@@ -39,10 +39,7 @@ class Link extends Component {
     event.preventDefault();
 
     if (allowTransition) {
-      const link = event.currentTarget;
-      Location.pushState(
-        this.props && this.props.state || null,
-        this.props && this.props.to || (link.pathname + link.search));
+      window.location = event.currentTarget;
     }
   };
 

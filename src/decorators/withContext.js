@@ -11,15 +11,15 @@ function withContext(ComposedComponent) {
         onInsertCss: PropTypes.func,
         onSetTitle: PropTypes.func,
         onSetMeta: PropTypes.func,
-        onPageNotFound: PropTypes.func,
-      }),
+        onPageNotFound: PropTypes.func
+      })
     };
 
     static childContextTypes = {
       onInsertCss: PropTypes.func.isRequired,
       onSetTitle: PropTypes.func.isRequired,
       onSetMeta: PropTypes.func.isRequired,
-      onPageNotFound: PropTypes.func.isRequired,
+      onPageNotFound: PropTypes.func.isRequired
     };
 
     getChildContext() {

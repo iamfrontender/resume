@@ -16,12 +16,20 @@
     "front-matter": "1.0.0",
     "history": "1.10.1",
     "jade": "1.11.0",
+    "local-storage": "^1.4.2",
+    "lodash.forown": "^3.0.2",
+    "lodash.get": "^3.7.0",
+    "lodash.has": "^3.2.1",
+    "lodash.isstring": "^3.0.1",
+    "lodash.uniq": "^3.2.2",
     "normalize.css": "3.0.3",
     "react": "0.14.0-rc1",
     "react-dom": "0.14.0-rc1",
     "react-routing": "0.0.4",
+    "request": "^2.64.0",
     "source-map-support": "0.3.2",
-    "superagent": "1.4.0"
+    "superagent": "1.4.0",
+    "treeify": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",

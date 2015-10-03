@@ -1,5 +1,3 @@
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
-
 import React, { PropTypes, Component } from 'react';
 import styles from './Footer.css';
 import withViewport from '../../decorators/withViewport';
@@ -14,7 +12,7 @@ class Footer extends Component {
     viewport: PropTypes.shape({
       width: PropTypes.number.isRequired,
       height: PropTypes.number.isRequired,
-    }).isRequired,
+    }).isRequired
   };
 
   render() {
@@ -25,9 +23,9 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <div className="Footer-container">
-          <span className="Footer-text">© Your Company</span>
+          <span className="Footer-text"></span>
           <span className="Footer-spacer">·</span>
-          <a className="Footer-link" href="/" onClick={Link.handleClick}>Home</a>
+
           <span className="Footer-spacer">·</span>
           <a className="Footer-link" href="/privacy" onClick={Link.handleClick}>Privacy</a>
           <span className="Footer-spacer">·</span>

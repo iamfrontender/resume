@@ -2,4 +2,8 @@
 
 export default {
   googleAnalyticsId: 'UA-XXXXX-X',
+  headerHeight: 150,
+  logo: 'iamfrontender',
+  theme: 'default',
+  cwd: 'resume:/'
 };

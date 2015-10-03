@@ -21,6 +21,7 @@ export default async () => {
   await Promise.all([
     copy('src/public', 'build/public'),
     copy('src/content', 'build/content'),
+    copy('src/data', 'build/data'),
     copy('package.json', 'build/package.json'),
   ]);
 
